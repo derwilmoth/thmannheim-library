@@ -72,7 +72,7 @@ export function Header() {
                   variant="ghost"
                   size="icon"
                   onClick={handleLogout}
-                  className="text-primary-foreground hover:bg-primary-foreground/10"
+                  className="text-primary-foreground hover:bg-primary-foreground/10 hover:text-background"
                 >
                   <LogOut className="h-4 w-4" />
                 </Button>
